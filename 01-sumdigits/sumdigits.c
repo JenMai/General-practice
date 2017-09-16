@@ -104,14 +104,14 @@ int base10_sumdigits(int a)
 
 		return base10_sumdigits(a);
 	}
-	else if (a == 10)                              // base case 1: 1 and 0 are the last digits
+	else if (a < 10)                               // base case 1: a < 10, no need to modulo
 	{
-		totalSum += 1;                         // add 1 from the tens, we don't want 10%10=0
+		totalSum += a;                         // add 1 from the tens, we don't want 10%10=0
 		return totalSum;
 	} 
-	else                                           // base case 2: a < 10, no need to modulo
+	else                                           // base case 2: 1 and 0 are the last digits
 	{
-		totalSum += a;
+		totalSum += 1;
 		return totalSum;
 	}
 }
