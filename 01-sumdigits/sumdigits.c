@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
 	}
 
 	int digits = mul_add(values[0], values[1], 
-			     values[2]);              //add and multiply values
+			     values[2]);              // add and multiply values
 
 	printf("Digits to add: %d\n", digits);
 
@@ -109,7 +109,7 @@ int base10_sumdigits(int a)
 		totalSum += 1;                         // add 1 from the tens, we don't want 10%10=0
 		return totalSum;
 	} 
-	else                                           //base case 2: a < 10, no need to modulo
+	else                                           // base case 2: a < 10, no need to modulo
 	{
 		totalSum += a;
 		return totalSum;
