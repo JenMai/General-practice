@@ -19,7 +19,7 @@ int totalSum;
 
 int main(int argc, char *argv[])
 {
-	int values[3];                              // integers stored after checking
+	int values[3];                                  // integers stored after checking
 	int result;
 
 	/*
@@ -31,11 +31,10 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-
-	for (int i = 1; i < argc; i++)             // for each argument
+	for (int i = 1; i < argc; i++)                 // for each argument
 	{
 		char *test = argv[i];                  // get  current argument 
-							                   // (argv == pointer of pointer)
+						       // (argv == pointer of pointer)
 		for (int j = 0; j < strlen(test); j++) // check for alpha chars
 		{
 			if (isalpha(test[j])) 
@@ -47,7 +46,7 @@ int main(int argc, char *argv[])
 
 		values[i-1] = atoi(test);              // if no alpha found, store integer
 
-		if (values[i - 1] < 0)				   // no negative integers
+		if (values[i - 1] < 0)		       // no negative integers
 		{
 			printf("Usage: ./sumdigits x y z (integers superior or equal to 0)\n");
 			return 1;
@@ -59,7 +58,7 @@ int main(int argc, char *argv[])
 	 */
 
 	if ((values[0] == 0 || values[1] == 0)
-		&& values[2] <= 9)                     // multiplication equals 0, no need to add digits
+	     && values[2] <= 9)                        // multiplication equals 0, no need to add digits
 	{
 		result = values[2];
 
@@ -70,11 +69,11 @@ int main(int argc, char *argv[])
 	}
 
 	int digits = mul_add(values[0], values[1], 
-						values[2]);            //add and multiply values
+			     values[2]);              //add and multiply values
 
 	printf("Digits to add: %d\n", digits);
 
-	result = base10_sumdigits(digits);         // get the final result
+	result = base10_sumdigits(digits);            // get the final result
 
 	printf("Result: %d\n", result);
 
@@ -100,17 +99,17 @@ int base10_sumdigits(int a)
 {
 	if (a > 10)
 	{
-		totalSum += (a % 10);					// modulo to get the digits
-		a /= 10;								// divide to get the digits to the left next
+		totalSum += (a % 10);		       // modulo to get the digits
+		a /= 10;			       // divide to get the digits to the left next
 
 		return base10_sumdigits(a);
 	}
-	else if (a == 10)                           // base case 1: 1 and 0 are the last digits
+	else if (a == 10)                              // base case 1: 1 and 0 are the last digits
 	{
-		totalSum += 1;                          // add 1 from the tens, we don't want 10%10=0
+		totalSum += 1;                         // add 1 from the tens, we don't want 10%10=0
 		return totalSum;
 	} 
-	else                                        //base case 2: a < 10, no need to modulo
+	else                                           //base case 2: a < 10, no need to modulo
 	{
 		totalSum += a;
 		return totalSum;
