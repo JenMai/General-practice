@@ -5,7 +5,7 @@ Exercises to warm back up or just practice in general, aside from school project
 - C
 - Python
 
-Adds digits from an input in a couple ways.
+Adds digits from an input in a couple of ways.
 ## 2 - Cards name
 - C# / XAML
 
