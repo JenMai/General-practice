@@ -1,1 +1,14 @@
 E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\bin\Debug\02-CardsName.exe.config
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\bin\Debug\02-CardsName.exe
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\bin\Debug\02-CardsName.pdb
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\02-CardsName.csprojResolveAssemblyReference.cache
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\MainWindow.g.cs
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\App.g.cs
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\02-CardsName_MarkupCompile.cache
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\02-CardsName_MarkupCompile.lref
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\MainWindow.baml
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\02-CardsName.g.resources
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\_02_CardsName.Properties.Resources.resources
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\02-CardsName.csproj.GenerateResource.Cache
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\02-CardsName.exe
+E:\Code\Python\Git\Side-exs-and-projects\02-CardsName\obj\Debug\02-CardsName.pdb
