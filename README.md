@@ -10,3 +10,13 @@ Adds digits from an input in a couple of ways.
 - C# / XAML
 
 Gets a card from a standard deck according to input. First attempt at making a WPF application/an interface.
+
+## 3 - Bulls and Cows
+- C
+
+The Bulls and Cows (or Mastermind) guessing game, 2 players required.
+
+TODO/Ideas:
+
+- [ ] An actual board on the terminal ?
+- [ ] Make an actual user interface with C#/XAML
