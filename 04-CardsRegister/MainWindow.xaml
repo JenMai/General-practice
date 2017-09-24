@@ -1,0 +1,35 @@
+﻿<Window x:Class="cardregister.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cardregister"
+        mc:Ignorable="d"
+        Title="CardRegister" Height="244.37" Width="309.009" Background="White">
+    <Grid Margin="0,0,0,-21">
+        <StackPanel Margin="0,0,0,-20">
+            <StackPanel Orientation="Horizontal">
+                <Label Width="80">First Name:</Label>
+                <TextBox VerticalAlignment="Center" Width="200">First name</TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="80">Last Name:</Label>
+                <TextBox VerticalAlignment="Center" Width="200">Last name</TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="80">Country:</Label>
+                <ComboBox x:Name="comboCountry" VerticalAlignment="Center" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="80">Card's series:</Label>
+                <ComboBox x:Name="comboSeries" VerticalAlignment="Center" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="80">Reference:</Label>
+                <ComboBox x:Name="comboRef" VerticalAlignment="Center" Width="200"/>
+            </StackPanel>
+        </StackPanel>
+        <Button x:Name="button" Content="Register card" Height="29" Margin="88,150,90,34"/>
+
+    </Grid>
+</Window>
