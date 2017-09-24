@@ -35,3 +35,4 @@ TODO:
 - [x] Database with primary/foreign keys.
 - [ ] The whole interface interactions (getting inputs, checking usage, editing database...).
 - [ ] Handling SQLite queries (such as loading items into comboboxes, one out of three has been done).
+- [ ] Solving the absolute/relative path issues when opening a db file.
