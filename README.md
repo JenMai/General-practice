@@ -23,3 +23,15 @@ TODO/Ideas:
 
 - [ ] An actual board on the terminal ?
 - [ ] Make an actual user interface with C#/XAML
+
+## 4 - Register a card (WORK IN PROGRESS)
+- C# / XAML
+- SQLite
+
+A user registers in his/her info along with the GPU he/she bought.
+
+TODO:
+- [x] Interface.
+- [x] Database with primary/foreign keys.
+- [ ] The whole interface interactions (getting inputs, checking usage, editing database...).
+- [ ] Handling SQLite queries (such as loading items into comboboxes, one out of three has been done).
