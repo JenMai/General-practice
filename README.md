@@ -28,7 +28,7 @@ TODO/Ideas:
 - C# / XAML
 - SQLite
 
-A user registers in his/her info along with the GPU he/she bought.
+Registers an user and his/her graphic card into a database.
 
 (I'm learning C# in quite the empiric way until I get a class dealing with this language, some things may seem inconsistent for the moment!)
 
