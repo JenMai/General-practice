@@ -24,15 +24,19 @@ TODO/Ideas:
 - [ ] An actual board on the terminal ?
 - [ ] Make an actual user interface with C#/XAML
 
-## 4 - Register a card (WORK IN PROGRESS)
+## 4 - Register a graphic card
 - C# / XAML
 - SQLite
 
-A user registers in his/her info along with the GPU he/she bought.
+Registers an user and his/her graphic card into a database.
+
+(I'm learning C# in quite the empiric way until I get a class dealing with this language, some things may seem inconsistent for the moment!)
 
 TODO:
 - [x] Interface.
 - [x] Database with primary/foreign keys.
-- [ ] The whole interface interactions (getting inputs, checking usage, editing database...).
-- [ ] Handling SQLite queries (such as loading items into comboboxes, one out of three has been done).
-- [ ] Solving the absolute/relative path issues when opening a db file.
+- [x] Interactions (getting inputs, checking usage, editing database...).
+- [x] Handled SQLite queries (such as loading items into comboboxes, one out of three has been done).
+- [ ] Solved the absolute/relative path issues when opening a db file.
+- [ ] Handled exceptions properly
+- [ ] Fixed bugs
