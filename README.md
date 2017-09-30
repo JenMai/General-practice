@@ -30,9 +30,13 @@ TODO/Ideas:
 
 A user registers in his/her info along with the GPU he/she bought.
 
+(I'm learning C# in quite the empiric way until I get a class dealing with this language, some things may seem inconsistent for the moment!)
+
 TODO:
 - [x] Interface.
 - [x] Database with primary/foreign keys.
-- [ ] The whole interface interactions (getting inputs, checking usage, editing database...).
-- [ ] Handling SQLite queries (such as loading items into comboboxes, one out of three has been done).
-- [ ] Solving the absolute/relative path issues when opening a db file.
+- [x] Interactions (getting inputs, checking usage, editing database...).
+- [x] Handled SQLite queries (such as loading items into comboboxes, one out of three has been done).
+- [ ] Solved the absolute/relative path issues when opening a db file.
+- [ ] Handled exceptions properly
+- [ ] Fixed bugs
