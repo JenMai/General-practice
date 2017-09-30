@@ -24,7 +24,7 @@ TODO/Ideas:
 - [ ] An actual board on the terminal ?
 - [ ] Make an actual user interface with C#/XAML
 
-## 4 - Register a card (WORK IN PROGRESS)
+## 4 - Register a graphic card
 - C# / XAML
 - SQLite
 
