@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cardregister"
         mc:Ignorable="d"
-        Title="CardRegister" Height="244.37" Width="309.009" Background="White">
+        Title="CardRegister" Height="244.37" Width="309.009" Background="White" Closing="MainWindow_Closing">
     <Grid Margin="0,0,0,-21">
         <StackPanel Margin="0,0,0,-20">
             <StackPanel Orientation="Horizontal">
                 <Label Width="80">First Name:</Label>
-                <TextBox VerticalAlignment="Center" Width="200">First name</TextBox>
+                <TextBox x:Name="FName" VerticalAlignment="Center" Width="200"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <Label Width="80">Last Name:</Label>
-                <TextBox VerticalAlignment="Center" Width="200">Last name</TextBox>
+                <TextBox x:Name="LName" VerticalAlignment="Center" Width="200"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <Label Width="80">Country:</Label>
@@ -29,7 +29,7 @@
                 <ComboBox x:Name="comboRef" VerticalAlignment="Center" Width="200"/>
             </StackPanel>
         </StackPanel>
-        <Button x:Name="button" Content="Register card" Height="29" Margin="88,150,90,34"/>
+        <Button x:Name="button" Content="Register card" Height="29" Margin="88,150,90,34" Click="button_Click"/>
 
     </Grid>
 </Window>
